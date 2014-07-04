@@ -1,0 +1,78 @@
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
+
+# PlanAhead Generated physical constraints 
+NET "clk"   LOC = P56;
+NET "rst_n" LOC = P38;
+
+NET "d1_c<0>" LOC = P143 | DRIVE = 16;
+NET "d1_c<1>" LOC = P144 | DRIVE = 16;
+NET "d1_c<2>" LOC = P1   | DRIVE = 16;
+NET "d1_c<3>" LOC = P2   | DRIVE = 16;
+NET "d1_c<4>" LOC = P51  | DRIVE = 16;
+NET "d1_c<5>" LOC = P50  | DRIVE = 16;
+NET "d1_c<6>" LOC = P41  | DRIVE = 16;
+NET "d1_c<7>" LOC = P40  | DRIVE = 16;
+
+NET "d2_c<0>" LOC = P29  | DRIVE = 16;
+NET "d2_c<1>" LOC = P30  | DRIVE = 16;
+NET "d2_c<2>" LOC = P26  | DRIVE = 16;
+NET "d2_c<3>" LOC = P27  | DRIVE = 16;
+NET "d2_c<4>" LOC = P35  | DRIVE = 16;
+NET "d2_c<5>" LOC = P34  | DRIVE = 16;
+NET "d2_c<6>" LOC = P33  | DRIVE = 16;
+NET "d2_c<7>" LOC = P32  | DRIVE = 16;
+
+NET "d1_b<0>" LOC = P58  | DRIVE = 16;
+NET "d1_b<1>" LOC = P57  | DRIVE = 16;
+NET "d1_b<2>" LOC = P67  | DRIVE = 16;
+NET "d1_b<3>" LOC = P66  | DRIVE = 16;
+NET "d1_b<4>" LOC = P75  | DRIVE = 16;
+NET "d1_b<5>" LOC = P74  | DRIVE = 16;
+NET "d1_b<6>" LOC = P79  | DRIVE = 16;
+NET "d1_b<7>" LOC = P78  | DRIVE = 16;
+
+NET "d2_b<0>" LOC = P114 | DRIVE = 16;
+NET "d2_b<1>" LOC = P115 | DRIVE = 16;
+NET "d2_b<2>" LOC = P111 | DRIVE = 16;
+NET "d2_b<3>" LOC = P112 | DRIVE = 16;
+NET "d2_b<4>" LOC = P104 | DRIVE = 16;
+NET "d2_b<5>" LOC = P105 | DRIVE = 16;
+NET "d2_b<6>" LOC = P101 | DRIVE = 16;
+NET "d2_b<7>" LOC = P102 | DRIVE = 16;
+
+NET "d1_g<0>" LOC = P11  | DRIVE = 16;
+NET "d1_g<1>" LOC = P12  | DRIVE = 16;
+NET "d1_g<2>" LOC = P9   | DRIVE = 16;
+NET "d1_g<3>" LOC = P10  | DRIVE = 16;
+NET "d1_g<4>" LOC = P7   | DRIVE = 16;
+NET "d1_g<5>" LOC = P8   | DRIVE = 16;
+NET "d1_g<6>" LOC = P5   | DRIVE = 16;
+NET "d1_g<7>" LOC = P6   | DRIVE = 16;
+
+NET "d2_g<0>" LOC = P15  | DRIVE = 16;
+NET "d2_g<1>" LOC = P14  | DRIVE = 16;
+NET "d2_g<2>" LOC = P17  | DRIVE = 16;
+NET "d2_g<3>" LOC = P16  | DRIVE = 16;
+NET "d2_g<4>" LOC = P22  | DRIVE = 16;
+NET "d2_g<5>" LOC = P21  | DRIVE = 16;
+NET "d2_g<6>" LOC = P24  | DRIVE = 16;
+NET "d2_g<7>" LOC = P23  | DRIVE = 16;
+
+NET "d1_r<0>" LOC = P81  | DRIVE = 2;
+NET "d1_r<1>" LOC = P80  | DRIVE = 2;
+NET "d1_r<2>" LOC = P83  | DRIVE = 2;
+NET "d1_r<3>" LOC = P82  | DRIVE = 2;
+NET "d1_r<4>" LOC = P85  | DRIVE = 2;
+NET "d1_r<5>" LOC = P84  | DRIVE = 2;
+NET "d1_r<6>" LOC = P88  | DRIVE = 2;
+NET "d1_r<7>" LOC = P87  | DRIVE = 2;
+
+NET "d2_r<0>" LOC = P99  | DRIVE = 2;
+NET "d2_r<1>" LOC = P100 | DRIVE = 2;
+NET "d2_r<2>" LOC = P97  | DRIVE = 2;
+NET "d2_r<3>" LOC = P98  | DRIVE = 2;
+NET "d2_r<4>" LOC = P94  | DRIVE = 2;
+NET "d2_r<5>" LOC = P95  | DRIVE = 2;
+NET "d2_r<6>" LOC = P92  | DRIVE = 2;
+NET "d2_r<7>" LOC = P93  | DRIVE = 2;
